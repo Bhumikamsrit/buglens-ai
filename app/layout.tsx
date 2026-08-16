@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'BugLens — AI Root Cause Investigator',
-  description: 'Production-style AI incident investigation demo.',
+  title: 'ChangeRadar — AI Change Impact Copilot',
+  description: 'AI-assisted engineering change impact analysis demo.',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
